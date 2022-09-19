@@ -65,6 +65,7 @@ export default class Result extends Component {
                 <img src={this.state.result.metadata.image} className={"nft"}/>
                     <div className={"block"}>
                 <NFTDATARootRoot>
+                    REsultComponent
                     <ValidStatus className={this.state.verified ? "verified" : "scam"}>
                         <Text1>Status of validation</Text1>
                         <Text2 className={this.state.verified ? "textVerified" : "textScam"}>{this.state.verified ? "Verified" : "Scam"}</Text2>
@@ -134,7 +135,7 @@ export default class Result extends Component {
     };
 
     const Collection = styled.div`
-  width: 236px;
+ /* width: 236px; */
   gap: 8px;
   display: flex;
   flex-grow: 1;
@@ -183,7 +184,7 @@ export default class Result extends Component {
   text-align: right;
 `;
     const NFTDATARootRoot = styled.div`
-  width: 556px;
+  width: 100%;
   gap: 20px;
   display: flex;
   flex-direction: column;
@@ -248,7 +249,7 @@ export default class Result extends Component {
   border-width: 0px 0px 1px 0px;
 `;
     const BasicDataOfNFT = styled.div`
-  width: 309px;
+/*  width: 309px; */
   gap: 16px;
   display: flex;
   flex-direction: column;
@@ -324,7 +325,7 @@ export default class Result extends Component {
   align-items: center;
 `;
     const Attribute1 = styled.div`
-  width: 180px;
+/*   width: 180px; */
   flex-grow: 1;
   color: #444445;
   font-size: 16px;
